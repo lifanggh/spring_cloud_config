@@ -1,0 +1,7 @@
+foo = hello
+#端口
+server.port = 8889
+#服务名
+spring-application.name = server-hello
+#注册到该注册中心
+eureka.client.service-url.defaultZone = http://localhost:8000/eureka/
